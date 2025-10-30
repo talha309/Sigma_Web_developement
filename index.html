@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Blog Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>🌐 My Creative Blog</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#audio">Audio</a>
+      <a href="#form">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Welcome to My Blog</h2>
+    <p>Explore amazing videos, relaxing audio, and fun quizzes below!</p>
+    <img src="https://via.placeholder.com/800x300" alt="Blog Banner">
+  </section>
+
+  <!-- Quiz Form Section -->
+  <section id="form">
+    <h2>📝 Quiz 1 - User Form</h2>
+    <form method="post">
+      <div>
+        <label for="name">Enter Your Name:</label>
+        <input id="name" type="text" placeholder="Your name">
+      </div>
+      <div>
+        <label for="city">Enter Your City:</label>
+        <input id="city" type="text" placeholder="Your city">
+      </div>
+      <div>
+        <label for="pincode">Enter Your Pincode:</label>
+        <input id="pincode" type="text" placeholder="Your pincode">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Video Section -->
+  <section id="videos">
+    <h2>🎬 Quiz 2 - Video Section</h2>
+    <article>
+      <h3>Technology Videos</h3>
+      <iframe width="350" height="200" src="https://www.youtube.com/embed/bdk8_F3aeZM"
+        title="Tech Video" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </article>
+
+    <article>
+      <h3>Music Video</h3>
+      <video src="video.mp4" controls poster="img.png" width="350" height="200"></video>
+    </article>
+  </section>
+
+  <!-- Audio Section -->
+  <section id="audio">
+    <h2>🎧 Audio Section</h2>
+    <article>
+      <h3>Relaxing Music</h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </article>
+
+    <article>
+      <h3>Podcast</h3>
+      <audio controls>
+        <source src="podcast.mp3" type="audio/mpeg">
+      </audio>
+    </article>
+  </section>
+
+  <!-- SVG Section -->
+  <section id="svg">
+    <h2>🎨 Simple SVG Image</h2>
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="200" height="200" fill="lightblue" />
+      <circle cx="100" cy="100" r="50" fill="orange" stroke="black" stroke-width="2" />
+      <text x="100" y="190" font-size="16" text-anchor="middle" fill="black">
+        Simple SVG
+      </text>
+    </svg>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 My Creative Blog | Made with ❤️ by You</p>
+    <a href="#home">Back to top</a>
+  </footer>
+</body>
+</html>
