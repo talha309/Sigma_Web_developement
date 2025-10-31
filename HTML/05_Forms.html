@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>HTML Forms 🧾</h1>
+    <p>Forms are used to collect user input, like name, email, and password.</p>
+
+    <form action="#" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male"> Male<br>
+        <input type="radio" id="female" name="gender" value="Female"> Female<br><br>
+
+        <label for="city">Select City:</label><br>
+        <select id="city" name="city">
+            <option>Karachi</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+        </select><br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML<br>
+        <input type="checkbox" name="skills" value="CSS"> CSS<br>
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Write something..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
