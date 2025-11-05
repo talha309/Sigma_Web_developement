@@ -135,7 +135,7 @@ Here’s a simple example of what I learned 👇
 
 ## 🧑‍💻 Author
 
-**👨‍💻 Mr. Oliver (InfoUstadhub)**
+**👨‍💻 Mr. Talha (InfoUstadhub)**
 📘 [InfoUstadhub Blog](https://infoustadhub.blogspot.com)
 💬 “Code with structure, learn with passion, and build with purpose.”
 
